@@ -5,12 +5,6 @@ def map_to_negativize(source_array)
   while source_array[i] do
     source_array[i] *= -1
     i += 1
-=======
-  counter = 0
-  while source_array[counter] do
-    source_array[counter] *= -1
-    counter += 1
->>>>>>> ef0058f7491806b28b4637a709284dbf45d26777
   end
   source_array
 end
